@@ -1,7 +1,6 @@
 import torch
 import gradio as gr
 
-# Use a pipeline as a high-level helper
 from transformers import pipeline
 
 
@@ -25,3 +24,4 @@ demo = gr.Interface(fn=summary,
                     title="Textum")
 
 demo.launch()
+
